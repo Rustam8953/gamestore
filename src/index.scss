@@ -1,0 +1,23 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(25, 26, 28);
+    font-family: 'Roboto', sans-serif;
+}
+
+.App {
+    max-width: 1180px;
+    margin: 0 auto;
+    padding: 0 40px;
+    color: #ffffff;
+}
+
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+

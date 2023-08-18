@@ -1,0 +1,13 @@
+.orderItem {
+    display: flex;
+    margin-bottom: 30px;
+    font-size: 24px;
+    font-weight: bold;
+    &__cover {
+        width: 200px;
+        margin-right: 30px;
+    }
+    &__price {
+        margin-left: auto;
+    }
+}

@@ -1,0 +1,32 @@
+.gameItems {
+    text-decoration: none;
+    color: white;
+    background-color: rgb(36, 37, 41);
+    border-radius: 15px;
+    position: relative;
+    &__details {
+        padding: 10px 20px;
+        &-title {
+            font-size: 18px;
+            font-weight: bold;
+            cursor: pointer;
+            &:hover {
+                text-decoration: underline;
+            }
+        }
+        &-genre {
+            margin-top: 10px;
+            display: flex;
+            flex-wrap: wrap;
+        }
+        &-buy {
+            position: absolute;
+            right: 20px;
+            bottom: 10px;
+        }
+        &-description {
+            font-size: 14px;
+            margin-top: 10px;
+        }
+    }
+}

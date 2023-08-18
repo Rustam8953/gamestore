@@ -1,0 +1,15 @@
+.cartItem {
+    width: 100%;
+    padding: 10px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    &__price {
+        display: flex;
+        align-items: center;
+        &-icon {
+            font-size: 20px;
+            padding-left: 10px;
+        }
+    }
+}

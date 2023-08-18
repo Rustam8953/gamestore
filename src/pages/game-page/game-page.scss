@@ -1,0 +1,33 @@
+.gamePage {
+    color: white;
+    margin: 0;
+    border: 0;
+    padding: 0;
+    padding: 100px 40px 0px;
+    margin: 0 auto;
+    &__title {
+
+    }
+
+    &__content {
+        display: flex;
+        &-left {
+            width: 70%;
+        }
+        &-right {
+            width: 30%;
+        }
+
+        &-buy-game {
+            display: flex;
+            justify-content: flex-end;
+            margin-top: 20px;
+        }
+    }
+}
+
+.secondary-text {
+    width: 100%;
+    font-size: 14px;
+    color: rgb(88, 82, 84)
+}

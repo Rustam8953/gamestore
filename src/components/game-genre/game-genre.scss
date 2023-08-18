@@ -1,0 +1,15 @@
+$backgroundColor: rgb(88, 82, 84);
+
+.gameGenre {
+    background-color: $backgroundColor;
+    padding: 2px 5px;
+    font-size: 13px;
+    border-radius: 10px;
+    cursor: pointer;
+    &:not(:last-child) {
+        margin-right: 7px;
+    }
+    &:hover {
+        text-decoration: underline;
+    }
+}
